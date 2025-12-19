@@ -26,37 +26,49 @@
                 android:id="@+id/btnB1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="B1" />
+                android:text="B1"
+                android:backgroundTint="@color/FloorBtn"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:id="@+id/btn1F"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1F" />
+                android:text="1F"
+                android:backgroundTint="@color/FloorBtn"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:id="@+id/btn2F"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2F" />
+                android:text="2F"
+                android:backgroundTint="@color/FloorBtn"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:id="@+id/btn3F"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3F" />
+                android:text="3F"
+                android:backgroundTint="@color/FloorBtn"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:id="@+id/btn4F"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4F" />
+                android:text="4F"
+                android:backgroundTint="@color/FloorBtn"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:id="@+id/btn5F"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="5F" />
+                android:text="5F"
+                android:backgroundTint="@color/FloorBtn"
+                android:textColor="@android:color/white"/>
         </LinearLayout>
     </ScrollView>
 

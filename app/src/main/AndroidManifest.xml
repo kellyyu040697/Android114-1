@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFinal1141">
         <activity
-            android:name="com.example.campusguide.library.LibraryFloorPager"
+            android:name="com.example.campusguide.library.LibraryFloorPagerActivity"
             android:exported="false" />
         <activity
             android:name="com.example.campusguide.library.LibraryFloorListActivity"
