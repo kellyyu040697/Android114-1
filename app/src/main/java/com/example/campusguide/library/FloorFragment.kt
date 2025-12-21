@@ -41,15 +41,8 @@ class FloorFragment : Fragment() {
         val tvFloorTitle = view.findViewById<TextView>(R.id.tvFloorTitle)
         val tvBookCategory = view.findViewById<TextView>(R.id.tvBookCategory)
         val tvFacilities = view.findViewById<TextView>(R.id.tvFacilities)
-        val btnBack = view.findViewById<Button>(R.id.btnBack)
         val bgImage = view.findViewById<ImageView>(R.id.bgImage)   // ✅ 新增這行，解決紅字
 
-        btnBack.setOnClickListener {
-            val intent = Intent(activity, LibraryFloorListActivity::class.java)
-            // 加上 FLAG，避免一直疊新的 Activity
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
-            startActivity(intent)
-        }
         tvFloorTitle.text = floorCode
 
         when (floorCode) {

@@ -21,11 +21,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        // ✅ 測試按鈕：跳到你的 LibraryMainActivity
-        val btnTest = findViewById<Button>(R.id.btnTest)
-        btnTest.setOnClickListener {
-            startActivity(Intent(this, LibraryMainActivity::class.java))
-        }
     }
 }

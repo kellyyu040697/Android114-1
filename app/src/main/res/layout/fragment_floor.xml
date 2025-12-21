@@ -31,12 +31,6 @@
             android:layout_marginTop="8dp"
             android:text="設備介紹..." />
 
-        <Button
-            android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="回樓層簡介" />
-
     </LinearLayout>
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
