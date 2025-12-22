@@ -11,39 +11,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFinal1141">
+
         <activity
-            android:name=".RoomFloor9Activity"
+            android:name=".IMActivity"
             android:exported="false" />
+
         <activity
-            android:name=".RoomFloor8Activity"
+            android:name=".GuideActivity"
             android:exported="false" />
-        <activity
-            android:name=".RoomFloor7Activity"
-            android:exported="false" />
-        <activity
-            android:name=".RoomFloor6Activity"
-            android:exported="false" />
-        <activity
-            android:name=".RoomFloor5Activity"
-            android:exported="false" />
-        <activity
-            android:name=".RoomFloor4Activity"
-            android:exported="false" />
-        <activity
-            android:name=".RoomFloor3Activity"
-            android:exported="false" />
-        <activity
-            android:name=".RoomFloor2Activity"
-            android:exported="false" />
-        <activity
-            android:name=".RoomFloor1Activity"
-            android:exported="false" />
+
+        <activity android:name=".RoomFloor9Activity" android:exported="false" />
+        <activity android:name=".RoomFloor8Activity" android:exported="false" />
+        <activity android:name=".RoomFloor7Activity" android:exported="false" />
+        <activity android:name=".RoomFloor6Activity" android:exported="false" />
+        <activity android:name=".RoomFloor5Activity" android:exported="false" />
+        <activity android:name=".RoomFloor4Activity" android:exported="false" />
+        <activity android:name=".RoomFloor3Activity" android:exported="false" />
+        <activity android:name=".RoomFloor2Activity" android:exported="false" />
+        <activity android:name=".RoomFloor1Activity" android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

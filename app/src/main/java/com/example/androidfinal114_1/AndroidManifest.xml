@@ -18,6 +18,9 @@
             </intent-filter>
         </activity>
 
+
+
+
         <!-- 其他樓層 Activity -->
         <activity android:name=".RoomFloor1Activity"/>
         <activity android:name=".RoomFloor2Activity"/>

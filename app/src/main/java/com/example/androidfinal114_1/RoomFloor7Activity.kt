@@ -25,7 +25,7 @@ class RoomFloor7Activity : AppCompatActivity() {
 
         // 返回首頁
         backButton.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, GuideActivity::class.java))
             finish()
         }
 

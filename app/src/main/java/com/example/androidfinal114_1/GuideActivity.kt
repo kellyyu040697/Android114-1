@@ -12,15 +12,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-
 class GuideActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // 注意這裡改成 activity_guide
         setContentView(R.layout.activity_guide)
 
-        val block1 = findViewById<FrameLayout>(R.id.block1)
+        val block1 = findViewById<FrameLayout>(R.id.block1) // 資管樓
         val block2 = findViewById<FrameLayout>(R.id.block2)
         val block3 = findViewById<FrameLayout>(R.id.block3)
 
@@ -57,13 +55,15 @@ class GuideActivity : AppCompatActivity() {
             }
         }
 
-        /*
-        block1.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
+        // IMActivity 資管樓
+        block1.setOnClickListener {
+            //
+            startActivity(Intent(this, IMActivity::class.java))
+        }
+
+        // 其他兩個暫時不動，或者之後你想做其他樓的選單再改
         block2.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
         block3.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
-
-
- */
     }
 
     private fun applyBlur(view: ImageView) {
