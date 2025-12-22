@@ -3,23 +3,21 @@ package com.example.androidfinal114_1
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.campusguide.library.LibraryMainActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        // ✅ 處理狀態列邊距
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        // 綁定按鈕
+        val btnEnter = findViewById<Button>(R.id.btn_Enter)
+
+        // 設定點擊監聽器
+        btnEnter.setOnClickListener {
+            // 建立 Intent，從這頁 (this) 跳轉到 GuideActivity
+            val intent = Intent(this, GuideActivity::class.java)
+            startActivity(intent)
         }
     }
 }
