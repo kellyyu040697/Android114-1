@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 圖書館外觀當背景 -->
+    <ImageView
+        android:id="@+id/imgLibraryBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/library_outside"
+        android:contentDescription="@string/library_image"
+        android:alpha="0.7" />
+
+    <!-- 加個半透明底方便文字可讀 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#80000000">
+
+        <Button
+            android:id="@+id/btnFloorGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="樓層導覽" />
+    </LinearLayout>
+
+</RelativeLayout>
