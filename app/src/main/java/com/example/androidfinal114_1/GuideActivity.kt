@@ -11,12 +11,17 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-
+import android.widget.Button
 class GuideActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_guide)
+        // 返回鍵
+        val btnBack = findViewById<Button>(R.id.btn_guide_back)
+        btnBack.setOnClickListener {
+            finish() // 結束 GuideActivity，回到 MainActivity
+        }
 
         val block1 = findViewById<FrameLayout>(R.id.block1) // 資管樓
         val block2 = findViewById<FrameLayout>(R.id.block2)
