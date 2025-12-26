@@ -28,13 +28,37 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidFinal1141" >
         <activity
-            android:name="com.example.campusguide.library.LibraryFloorPagerActivity"
+            android:name="com.example.androidfinal114_1.IMActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.campusguide.library.LibraryFloorListActivity"
+            android:name="com.example.androidfinal114_1.GuideActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.campusguide.library.LibraryMainActivity"
+            android:name="com.example.androidfinal114_1.RoomFloor9Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor8Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor7Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor6Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor5Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor4Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor3Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor2Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.RoomFloor1Activity"
             android:exported="false" />
         <activity
             android:name="com.example.androidfinal114_1.MainActivity"

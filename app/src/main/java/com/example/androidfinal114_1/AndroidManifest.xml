@@ -18,7 +18,13 @@
             </intent-filter>
         </activity>
 
-
+        <!-- 圖書館 Activity -->
+        <activity
+            android:name="com.example.campusguide.library.LibraryMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.campusguide.library.LibraryFloorPagerActivity"
+            android:exported="false" />
 
 
         <!-- 其他樓層 Activity -->
