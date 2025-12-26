@@ -10,6 +10,7 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.campusguide.library.LibraryMainActivity
 
@@ -18,6 +19,12 @@ class GuideActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_guide)
+
+        // 返回鍵
+        val btnBack = findViewById<Button>(R.id.btn_guide_back)
+        btnBack.setOnClickListener {
+            finish() // 結束 GuideActivity，回到 MainActivity
+        }
 
         val block1 = findViewById<FrameLayout>(R.id.block1) // 資管樓
         val block2 = findViewById<FrameLayout>(R.id.block2)
@@ -58,15 +65,17 @@ class GuideActivity : AppCompatActivity() {
 
         // IMActivity 資管樓
         block1.setOnClickListener {
-            //
             startActivity(Intent(this, IMActivity::class.java))
         }
 
-        // 其他兩個暫時不動，或者之後你想做其他樓的選單再改
-        block2.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
-        // block3 → 圖書館
+        // 真知大樓（暫時先跳 RoomFloor1Activity）
+        block2.setOnClickListener {
+            startActivity(Intent(this, RoomFloor1Activity::class.java))
+        }
+
+        // 圖書館
         block3.setOnClickListener {
-            startActivity(Intent(this, com.example.campusguide.library.LibraryMainActivity::class.java))
+            startActivity(Intent(this, LibraryMainActivity::class.java))
         }
     }
 
