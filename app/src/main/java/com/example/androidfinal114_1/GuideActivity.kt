@@ -10,16 +10,14 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.campusguide.library.LibraryMainActivity
+import android.widget.Button
 
 class GuideActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_guide)
-
         // 返回鍵
         val btnBack = findViewById<Button>(R.id.btn_guide_back)
         btnBack.setOnClickListener {
@@ -65,18 +63,21 @@ class GuideActivity : AppCompatActivity() {
 
         // IMActivity 資管樓
         block1.setOnClickListener {
+            //
             startActivity(Intent(this, IMActivity::class.java))
         }
 
-        // 真知大樓（暫時先跳 RoomFloor1Activity）
-        block2.setOnClickListener {
-            startActivity(Intent(this, RoomFloor1Activity::class.java))
+        // 其他兩個暫時不動，或者之後你想做其他樓的選單再改
+        block2.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
+
+        block3.setOnClickListener {
+
+            val intent = Intent(this, LibraryMainActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(0, 0)
         }
 
-        // 圖書館
-        block3.setOnClickListener {
-            startActivity(Intent(this, LibraryMainActivity::class.java))
-        }
+
     }
 
     private fun applyBlur(view: ImageView) {

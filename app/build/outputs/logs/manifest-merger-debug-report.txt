@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\User\.gradle\caches\8.13\transforms\72e62b10f408a1fccfb95d8b0ea46e8d\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\User\.gradle\caches\8.13\transforms\0adb960a06cb532f075b339d463e0ff9\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\User\.gradle\caches\8.13\transforms\8b0663c650676e667c5115b84f48fcbd\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users
 	xmlns:android
 		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:5:5-41:19
-INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:5:5-41:19
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:5:5-71:19
+INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:5:5-71:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\User\.gradle\caches\8.13\transforms\72e62b10f408a1fccfb95d8b0ea46e8d\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\User\.gradle\caches\8.13\transforms\72e62b10f408a1fccfb95d8b0ea46e8d\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\User\.gradle\caches\8.13\transforms\0adb960a06cb532f075b339d463e0ff9\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -94,88 +94,118 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\.gradle\cache
 		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:13:9-54
 	android:dataExtractionRules
 		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.androidfinal114_1.IMActivity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:15:9-17:40
+activity#com.example.androidfinal114_1.LibraryFloorPagerActivity
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:16:13-39
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:15:13-54
+activity#com.example.androidfinal114_1.LibraryMainActivity
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:18:13-48
 activity#com.example.androidfinal114_1.GuideActivity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:20:13-42
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:21:13-42
+activity#com.example.androidfinal114_1.IMActivity
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:24:13-39
+activity#com.example.androidfinal114_1.IMF3Activity
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:27:13-41
+activity#com.example.androidfinal114_1.IMF2Activity
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:30:13-41
+activity#com.example.androidfinal114_1.IMF1Activity
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.example.androidfinal114_1.RoomFloor9Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:23:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:23:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:23:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:36:13-47
 activity#com.example.androidfinal114_1.RoomFloor8Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:24:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:24:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:24:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:39:13-47
 activity#com.example.androidfinal114_1.RoomFloor7Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:25:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:25:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:25:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:42:13-47
 activity#com.example.androidfinal114_1.RoomFloor6Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:26:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:26:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:26:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:45:13-47
 activity#com.example.androidfinal114_1.RoomFloor5Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:27:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:27:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:27:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:48:13-47
 activity#com.example.androidfinal114_1.RoomFloor4Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:28:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:28:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:28:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:51:13-47
 activity#com.example.androidfinal114_1.RoomFloor3Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:29:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:29:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:29:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:54:13-47
 activity#com.example.androidfinal114_1.RoomFloor2Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:30:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:30:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:30:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:57:13-47
 activity#com.example.androidfinal114_1.RoomFloor1Activity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:31:9-81
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:31:54-78
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:31:19-53
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:60:13-47
 activity#com.example.androidfinal114_1.MainActivity
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:62:9-70:20
 	android:exported
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:63:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:36:13-39:29
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:65:13-69:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:66:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:68:17-77
 	android:name
-		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml:68:27-74
 uses-sdk
 INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\Android114-1\app\src\main\AndroidManifest.xml

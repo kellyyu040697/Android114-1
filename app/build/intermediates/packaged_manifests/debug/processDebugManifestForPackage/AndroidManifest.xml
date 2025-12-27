@@ -28,10 +28,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidFinal1141" >
         <activity
-            android:name="com.example.androidfinal114_1.IMActivity"
+            android:name="com.example.androidfinal114_1.LibraryFloorPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.LibraryMainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.androidfinal114_1.GuideActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.IMActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.IMF3Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.IMF2Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidfinal114_1.IMF1Activity"
             android:exported="false" />
         <activity
             android:name="com.example.androidfinal114_1.RoomFloor9Activity"

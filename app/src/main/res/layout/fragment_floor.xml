@@ -1,54 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
-    <!-- 背景圖片 -->
-    <ImageView
-        android:id="@+id/bgImage"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:alpha="0.7"
-        android:src="@drawable/library_outside" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    <!-- 可捲動內容 -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvFloorTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:padding="16dp"
+        <TextView
+            android:id="@+id/tvSwipeHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <!-- 實體照片 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="實體場景："
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgFloorPhoto"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:background="#EEEEEE" />
 
-            <TextView
-                android:id="@+id/tvFloorTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:text="1F" />
+        <!-- 平面地圖 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="平面地圖："
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/tvBookCategory"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textColor="@android:color/white"
-                android:text="藏書種類介紹..." />
+        <ImageView
+            android:id="@+id/imgFloorMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:minHeight="150dp" />
 
-            <TextView
-                android:id="@+id/tvFacilities"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textColor="@android:color/white"
-                android:text="設備介紹..." />
+        <TextView
+            android:id="@+id/tvBookCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#444444"
+            android:textSize="18sp" />
 
-        </LinearLayout>
-    </ScrollView>
+        <TextView
+            android:id="@+id/tvFacilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:lineSpacingExtra="8dp" />
 
-</FrameLayout>
+        <Button
+            android:id="@+id/btn_back_to_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="返回樓層選單" />
+
+    </LinearLayout>
+</ScrollView>
