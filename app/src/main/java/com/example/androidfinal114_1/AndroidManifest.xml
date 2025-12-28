@@ -18,10 +18,33 @@
             </intent-filter>
         </activity>
 
+        <!-- 校園導覽頁 -->
+        <activity
+            android:name="com.example.androidfinal114_1.GuideActivity"
+            android:exported="false" />
 
+        <!-- 資管樓 -->
+        <activity android:name="com.example.androidfinal114_1.IMActivity" />
+        <activity android:name="com.example.androidfinal114_1.IMF1Activity" />
+        <activity android:name="com.example.androidfinal114_1.IMF2Activity" />
+        <activity android:name="com.example.androidfinal114_1.IMF3Activity" />
 
+        <!-- 圖書館 Activity -->
+        <activity
+            android:name=".LibraryMainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
-        <!-- 其他樓層 Activity -->
+        <!-- 圖書館樓層分頁 Activity -->
+        <activity
+            android:name=".LibraryFloorPagerActivity"
+            android:exported="false" />
+
+        <!-- 其他樓層 Activity（教學大樓） -->
         <activity android:name=".RoomFloor1Activity"/>
         <activity android:name=".RoomFloor2Activity"/>
         <activity android:name=".RoomFloor3Activity"/>

@@ -12,6 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
+
 class GuideActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -68,7 +69,15 @@ class GuideActivity : AppCompatActivity() {
 
         // 其他兩個暫時不動，或者之後你想做其他樓的選單再改
         block2.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
-        block3.setOnClickListener { startActivity(Intent(this, RoomFloor1Activity::class.java)) }
+
+        block3.setOnClickListener {
+
+            val intent = Intent(this, LibraryMainActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(0, 0)
+        }
+
+
     }
 
     private fun applyBlur(view: ImageView) {
